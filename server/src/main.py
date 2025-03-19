@@ -10,7 +10,7 @@ from src.routes.miscellaneous import router as Miscellaneous
 app = FastAPI(
     title = "Whisper API",
     description = "OpenAI Whisper automatic speech recognition microservice",
-    version = "1.0.0",
+    version = "1.1.0",
 )
 
 # Add Middleware
